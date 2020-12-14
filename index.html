@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+   <div id="page">
+       <div id="sidebar">
+           <img src="swegga.jpg">
+       </div>
+       <div id="banner">
+           <img src="delivery.gif">
+       </div>
+       <div id="navigation">
+            <img src="links.gif" usemap="#junain">
+            <map name="junain">
+                <area href="home.html" coords="3,7,97,40" shape="rect"> 
+            </map>
+        </div>
+
+        <div id="caption">
+            Product Summary
+        </div>
+        <div id="table">
+            <table>
+                <tr>
+                    <th>Description</th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td><a href="">Female Ski Jackets</a></td>
+                    <td>
+                        <select>
+                            <option>small</option>
+                            <option>medium</option>
+                            <option>large</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>red</option>
+                            <option>pink</option>
+                            <option>black</option>
+                        </select>
+                    </td>
+                    <td>150.95</td>
+                    <td><input type="text" id="BulkF" style="width:40px;"></td>
+                    <td><label for="f" id="TotboxF"></label></td>
+                </tr>
+
+                <tr>
+                    <td><a href="">Male Ski Jackets</a></td>
+                    <td>
+                        <select>
+                            <option>small</option>
+                            <option>medium</option>
+                            <option>large</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>red</option>
+                            <option>blue</option>
+                            <option>white</option>
+                        </select>
+                    </td>
+                    <td>180.95</td>
+                    <td><input type="text" id="BulkM" style="width:40px;"></td>
+                    <td><label for="m" id="TotboxM"></label></td>
+                </tr>
+                <tr>
+                    <td colspan="4" span="4">Click to confirm and process your order</td>
+                    <td>
+                        <button type="button" onclick="calc()">Total Price</button>
+                    </td>
+                    <td><label for="t" id="grandtotal"></label></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    <br><br>
+    <hr>
+        <footer>&copy; 2014 swegga Fashion- Junain Sedick Reynecke</footer>
+   </div>
+   <script src ="index.js", type="text/javascript"></script>
+</body>
+</html>
